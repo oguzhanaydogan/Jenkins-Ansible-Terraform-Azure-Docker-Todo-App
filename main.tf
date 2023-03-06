@@ -7,8 +7,8 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name  = "ycetindil"
-    storage_account_name = "ycetindil"
+    resource_group_name  = "rg-name"
+    storage_account_name = "oaydogan"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
     use_msi              = true

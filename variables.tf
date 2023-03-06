@@ -3,11 +3,11 @@ variable "prefix" {
 }
 
 variable "backend_rg_name" {
-  default = "ycetindil"
+  default = "rg-name"
 }
 
 variable "backend_sa_name" {
-  default = "ycetindil"
+  default = "oaydogan"
 }
 
 variable "backend_container_name" {
@@ -23,11 +23,11 @@ variable "admin_username" {
 }
 
 variable "ssh_key_rg" {
-  default = "ycetindil"
+  default = "ssh-key-rg"
 }
 
 variable "ssh_key_name" {
-  default = "ycetindil"
+  default = "oguzhankey"
 }
 
 variable "vm_tags" {
